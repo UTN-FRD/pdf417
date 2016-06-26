@@ -1,0 +1,17 @@
+group 'org.lsi.pdf417'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.sarxos:webcam-capture:0.3.11'
+    compile 'uk.co.caprica:vlcj:3.10.1'
+    compile 'com.google.zxing:javase:3.2.1'
+    compile 'com.google.zxing:core:3.2.1'
+}
